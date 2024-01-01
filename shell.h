@@ -173,7 +173,7 @@ int print_d(int, int);
 char *convert_number(long int, int, int);
 void remove_comments(char *);
 
-/* toem_builtin.c */ 
+/* toem_builtin.c */
 int _myexit(info_t *);
 int _mycd(info_t *);
 int _myhelp(info_t *);
@@ -187,12 +187,12 @@ ssize_t get_input(info_t *);
 int _getline(info_t *, char **, size_t *);
 void sigintHandler(int);
 
-/* toem_getinfo.c */ 
+/* toem_getinfo.c */
 void clear_info(info_t *);
 void set_info(info_t *, char **);
 void free_info(info_t *, int);
 
-/* toem_environ.c */ 
+/* toem_environ.c */
 char *_getenv(info_t *, const char *);
 int _myenv(info_t *);
 int _mysetenv(info_t *);
